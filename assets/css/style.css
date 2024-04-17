@@ -15,3 +15,7 @@ body {
   background-color: transparent;
   width: 100%;
 }
+
+#mensaje {
+  padding-bottom: 15%;
+}
