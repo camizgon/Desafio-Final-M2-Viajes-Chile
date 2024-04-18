@@ -66,13 +66,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Quienes Somos</a>
+              <a class="nav-link text-light" href="#Seccion1">Quienes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Destacados</a>
+              <a class="nav-link text-light" href="#Seccion2">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contacto</a>
+              <a class="nav-link text-light" href="#Seccion3">Contacto</a>
             </li>
           </ul>
         </div>
@@ -125,7 +125,9 @@
     <br />
     <br />
     <!-- TITULOS Y PARRAFOS CON ICON -->
-    <h1 class="d-none d-md-block fs-3 text-center">¿QUIÉNES SOMOS?</h1>
+    <h1 id="Seccion1" class="d-none d-md-block fs-3 text-center">
+      ¿QUIÉNES SOMOS?
+    </h1>
     <hr class="w-75 mx-auto" />
     <br />
     <div class="d-none d-md-block container">
@@ -180,14 +182,14 @@
     </div>
     <br />
     <br />
-    <h2 class="fs-3 text-center">DESTACADOS</h2>
+    <h2 id="Seccion2" class="fs-3 text-center">DESTACADOS</h2>
     <div class="container">
       <hr class="my-1" />
       <br />
       <!-- CARD -->
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
-          <div class="card">
+          <div class="card" style="height: 370px">
             <img
               src="./assets/image/card1.jpg"
               height="180px"
@@ -204,7 +206,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card" style="height: 370px">
             <img
               src="./assets/image/card2.jpg"
               height="180px"
@@ -221,7 +223,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card" style="height: 370px">
             <img
               src="./assets/image/card3.jpg"
               height="180px"
@@ -240,7 +242,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card" style="height: 370px">
             <img
               src="./assets/image/card4.jpg"
               height="180px"
@@ -259,10 +261,9 @@
       </div>
     </div>
     <br />
-    <h2 class="fs-3 text-center">CONTACTOS</h2>
+    <h2 id="Seccion3" class="fs-3 text-center">CONTACTOS</h2>
     <div class="container">
-      <hr class="my-1" />
-      <br />
+      <hr />
       <div class="row">
         <div class="col-12">
           <form>
@@ -302,5 +303,17 @@
         </div>
       </div>
     </div>
+    <br />
+    <footer
+      class="px-4 d-flex align-items-center justify-content-around py-4 bg-info"
+    >
+      <span>VIAJES CHILE</span>
+      <div id="icon2">
+        <i class="fa-brands fa-square-github fa-2x"></i>
+        <i class="fa-brands fa-linkedin fa-2x"></i>
+        <i class="fa-brands fa-square-twitter fa-2x"></i>
+        <i class="fa-brands fa-square-facebook fa-2x"></i>
+      </div>
+    </footer>
   </body>
 </html>
