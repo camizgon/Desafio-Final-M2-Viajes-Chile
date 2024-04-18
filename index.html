@@ -296,7 +296,13 @@
                 id="exampleInputPassword1"
               />
             </div>
-            <button type="submit" class="btn btn-primary bg-info">
+            <button
+              id="enviar"
+              type="submit"
+              class="btn btn-primary bg-info"
+              data-bs-toggle="tooltip"
+              data-bs-title="Presiona para enviar"
+            >
               Enviar
             </button>
           </form>
@@ -307,12 +313,20 @@
     <footer
       class="px-4 d-flex align-items-center justify-content-around py-4 bg-info"
     >
-      <span>VIAJES CHILE</span>
-      <div id="icon2">
-        <i class="fa-brands fa-square-github fa-2x"></i>
-        <i class="fa-brands fa-linkedin fa-2x"></i>
-        <i class="fa-brands fa-square-twitter fa-2x"></i>
-        <i class="fa-brands fa-square-facebook fa-2x"></i>
+      <span class="fs-5">VIAJES CHILE</span>
+      <div>
+        <a id="link" href="https://github.com/" target="_blank">
+          <i class="fa-brands fa-square-github fa-2x mx-2"></i>
+        </a>
+        <a id="link" href="https://cl.linkedin.com/" target="_blank">
+          <i class="fa-brands fa-linkedin fa-2x mx-2"></i>
+        </a>
+        <a id="link" href="https://twitter.com/?lang=es" target="_blank">
+          <i class="fa-brands fa-square-twitter fa-2x mx-2"></i>
+        </a>
+        <a id="link" href="https://www.facebook.com/" target="_blank">
+          <i class="fa-brands fa-square-facebook fa-2x mx-2"></i>
+        </a>
       </div>
     </footer>
   </body>
